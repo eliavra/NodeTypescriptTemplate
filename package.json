@@ -6,6 +6,7 @@
   "scripts": {
     "start:build": "tsc -w",
     "start:run": "nodemon -r dotenv/config dist/Server.js",
+    "gcp-build": "tsc -p .",
     "start": "concurrently npm:start:*"
   },
   "repository": {
